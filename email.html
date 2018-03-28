@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base target="_top">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+</head>
+
+<style>
+  h2 {
+      background-color: Green;
+  }
+  h3 {
+    background-color: LightSeaGreen;
+  }
+  div {
+      background-color: lightblue;
+  }  
+  p {
+      background-color: Yellow;
+  }
+  </style>
+
+<body>
+  <div>  
+    <h2>Demo Universitate Bucuresti </h2>
+    <h3>You are being contacted from your website by
+        <b>
+          <?= name?>
+        </b> at
+        <b>
+          <?= email ?>
+        </b>
+      </h3>
+    <div>
+      <p> Time sent:
+        <?= new Date().toDateString() ?> at
+          <?= new Date().toTimeString() ?>
+      </p>
+    
+      <p>Subject:
+        <b>
+          <?= subject ?>
+        </b>
+      </p>
+      <p>
+        <?= body ?>
+      </p>
+     <div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</body>
+
+
+</html>

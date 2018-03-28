@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 
 <head>
@@ -15,42 +14,41 @@
   }
   div {
       background-color: lightblue;
-  }  
+  }
   p {
       background-color: Yellow;
   }
-  </style>
+</style>
 
 <body>
+  
   <div>  
-    <h2>Demo Universitate Bucuresti </h2>
+    <h2>Demo Universitate Bucuresti</h2>
     <h3>You are being contacted from your website by
         <b>
           <?= name?>
         </b> at
         <b>
-          <?= email ?>
+          <?= email?>
         </b>
       </h3>
-    <div>
       <p> Time sent:
         <?= new Date().toDateString() ?> at
-          <?= new Date().toTimeString() ?>
+        <?= new Date().toTimeString() ?>
       </p>
     
       <p>Subject:
         <b>
-          <?= subject ?>
+          <?= subject?>
         </b>
       </p>
+      
       <p>
-        <?= body ?>
+        <?= body?>
       </p>
-     <div>
+  </div>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">  </script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 </body>
-
-
 </html>

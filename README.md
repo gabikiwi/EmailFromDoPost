@@ -7,7 +7,12 @@ add the files Code.gs and email.html inside Google AppScript
 
 ### create a sheet:
 Take the id of the sheet (check the URL)
-Further change the email address where you receive notification with your own.
+Further:
+change the ID in this line
+  var sheet = SpreadsheetApp.openById('1QU9fe0_8cLGb6mFTIKU0lYl5Cer-RQZ8svQFln6pSWA').getActiveSheet();
+ whith you own
+ 
+change the email address where you want to receive notification with your own.
 
 ### third Step:
 publish AppScript as webapp 
@@ -33,4 +38,4 @@ Change the HtmlFromForGSites.html by replacing the webapp link in the code with 
 embed html code (HtmlFromForGSites.html) inside your Google Site page (This should be trivial)
 
 ### third Step:
-publish the webapp
+publish the GSite page as publicly available. 

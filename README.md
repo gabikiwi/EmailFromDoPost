@@ -11,6 +11,7 @@ Further:
 change the ID in this line
   var sheet = SpreadsheetApp.openById('1QU9fe0_8cLGb6mFTIKU0lYl5Cer-RQZ8svQFln6pSWA').getActiveSheet();
  whith your newly created Sheet
+
  
 change the email address where you want to receive notification with your own.
 
@@ -23,6 +24,7 @@ Me (youremail@address)
 You need to authorize the script before distributing the URL.
 Who has access to the app:
 Anyone / even anonymous
+[Deploy] (https://lh3.googleusercontent.com/N_CVHohMS77yCIZKq57eXlwFxVThO4XOhQLFqRrhmigCvRzy0TZBMY0VPoe3DKAe4hF9ZcdZbpN2Rz8WLpneH4JallHF0Sql2h0-GHOyPc7d-mKhr7uxtWnjMctKlQwA=s800)
 
 ### fourth step
 copy the public link of your webapp

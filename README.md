@@ -36,8 +36,8 @@ copy the public link of your webapp
 Create a Google Site page
 
 ### second Step:
-Change the HtmlFromForGSites.html by replacing the webapp link in the code with your own copied from "fourth step"
-embed html code (HtmlFromForGSites.html) inside your Google Site page (This should be trivial)
+Change the HtmlFromForGSites.html by replacing the webapp link in the code with your own copied from "fourth step".
+Now you can embed html code (HtmlFromForGSites.html) inside your Google Site page (This should be trivial)
 
 ### third Step:
 publish the GSite page as publicly available. 

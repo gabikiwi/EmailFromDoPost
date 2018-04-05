@@ -10,7 +10,7 @@ Take the id of the sheet (check the URL)
 Further:
 change the ID in this line
   var sheet = SpreadsheetApp.openById('1QU9fe0_8cLGb6mFTIKU0lYl5Cer-RQZ8svQFln6pSWA').getActiveSheet();
- whith you own
+ whith your newly created Sheet
  
 change the email address where you want to receive notification with your own.
 

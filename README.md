@@ -1,4 +1,4 @@
-# How to make realy fast your own form public, with Google G Suite (persistence - GSheet, notificaiton: Gmail)
+# How to make realy fast your own form become public, with help of Google G Suite (persistence - GSheet, notification: Gmail)
 
 ## First phase: create backend
 

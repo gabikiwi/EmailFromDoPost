@@ -2,14 +2,14 @@
 
 ## First phase: create backend
 
-### First Step:
+### first Step:
 add the files Code.gs and email.html inside Google AppScript
 
-### Create a sheet:
+### create a sheet:
 Take the id of the sheet (check the URL)
 Further change the email address where you receive notification with your own.
 
-### Third Step:
+### third Step:
 publish AppScript as webapp 
 !!! Very important: You need to use your @gmail.com domain because you are able to publish this backend as a very permisive app
 Execute the app as:
@@ -25,12 +25,12 @@ copy the public link of your webapp
 
 ## Second phase: Frontend
 
-### First Step:
+### first Step:
 Create a Google Site page
 
-### Second Step:
+### second Step:
 Change the HtmlFromForGSites.html by replacing the webapp link in the code with your own copied from "fourth step"
 embed html code (HtmlFromForGSites.html) inside your Google Site page (This should be trivial)
 
-### Third Step:
+### third Step:
 publish the webapp

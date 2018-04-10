@@ -9,7 +9,7 @@ add the files Code.gs and email.html inside Google AppScript
 Take the id of the sheet (check the URL)
 Further:
 change the ID in this line
-  var sheet = SpreadsheetApp.openById('1QU9fe0_8cLGb6mFTIKU0lYl5Cer-RQZ8svQFln6pSWA').getActiveSheet();
+  var sheet = SpreadsheetApp.openById('1QU9fe0_8cLGb6mFTIKU0lYl5Cer-RQZ8svQFln6pSWB').getActiveSheet();
  whith your newly created Sheet
 
  
